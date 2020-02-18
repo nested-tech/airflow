@@ -18,7 +18,7 @@
 -->
 # FORK NOTES
 
-This repo has been forked for one purpose only, which is to allow proper dependency resolution between airflow 1.10.3 and beam 2.15.0. [This commit](https://github.com/nested-tech/airflow/commit/dd8ad5e898cc7e361bae933d1bd49027883dbb92) amends the `google-cloud-bigtable` and `tenacity` versions to ones that will work with beam, so we can reliably build pipelines.
+This repo has been forked for one purpose only, which is to allow proper dependency resolution between airflow 1.10.3 and beam 2.15.0. [This commit](https://github.com/nested-tech/airflow/commit/43de802b206af74b27cad52326f366c0464c83f5) amends the `google-cloud-bigtable` and `tenacity` versions to ones that will work with beam, so we can reliably build pipelines.
 
 Pretty pathetic stuff from apache, and we're stuck on airflow 1.10.3 because of GCP Composer, so wouldn't see fixes even if they did get made into airflow.
 
